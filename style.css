@@ -1,0 +1,78 @@
+/* General page styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header section */
+.header {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #357ABD; /* Box Model: border */
+}
+
+/* Navigation */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+.navbar a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+/* Main content area */
+.content {
+    padding: 20px;
+}
+
+/* Card sections - Box Model practice */
+.card {
+    background-color: white;
+    padding: 20px;            /* inside space */
+    margin: 20px 0;           /* outside space */
+    border: 2px solid #ddd;   /* border */
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;       /* Box Model: padding */
+    margin: 10px 0;           /* space outside */
+    border: 2px solid #4a90e2;
+    background-color: #4a90e2;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #357ABD;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
